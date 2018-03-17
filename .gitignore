@@ -1,2 +1,6 @@
 superlists_project/db.sqlite3
 superlists_project/geckodriver.log
+*~
+superlists/__pycache__/
+*.py~
+*.pyc
