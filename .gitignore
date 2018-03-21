@@ -4,3 +4,4 @@ superlists_project/geckodriver.log
 superlists/__pycache__/
 *.py~
 *.pyc
+superlists_project/static
