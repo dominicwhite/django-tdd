@@ -5,3 +5,4 @@ superlists/__pycache__/
 *.py~
 *.pyc
 superlists_project/static
+aws-ttd-key.pem
