@@ -8,3 +8,4 @@ superlists_project/static
 aws-ttd-key.pem
 .env
 misc
+virtualenv
