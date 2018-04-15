@@ -1,9 +1,13 @@
 from fabric.api import run
 from fabric.context_managers import settings, shell_env
+from fabric.api import env
+
+env.key_filename = ["../aws-ttd-key.pem"]
+
 
 
 def _get_manage_dot_py(host):
-    return f'~/sites/{host}/virtualenv/bin/python ~/sites/{host}/manage.py'
+    return f'~/sites/{host}/virtualenv/bin/python ~/sites/{host}/superlists_project/manage.py'
 
 
 def reset_database(host):
